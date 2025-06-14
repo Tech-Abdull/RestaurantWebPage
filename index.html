@@ -122,7 +122,7 @@
 
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-3">
-    &copy; 2025 Delicious Bites | Follow us:
+    &copy; 2025 Delicious Bites | Follow us on :
     <a href="#" class="text-white ms-2"><i class="bi bi-facebook"></i></a>
     <a href="#" class="text-white ms-2"><i class="bi bi-instagram"></i></a>
     <a href="#" class="text-white ms-2"><i class="bi bi-twitter"></i></a>
@@ -132,3 +132,199 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+<!-- Travel agency -->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wanderlust Travel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?travel,beach') center/cover no-repeat;
+      color: white;
+      height: 75vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Wanderlust</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Destinations</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Tours</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div>
+      <h1 class="display-3">Explore the World with Us</h1>
+      <p class="lead">Adventure is just a step away</p>
+      <a href="#destinations" class="btn btn-light btn-lg">Discover Destinations</a>
+    </div>
+  </section>
+
+  <!-- Destinations -->
+  <section id="destinations" class="py-5">
+    <div class="container text-center">
+      <h2>Top Destinations</h2>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="IMAGES/Paris.webp" class="card-img-top" alt="Paris">
+            <div class="card-body">
+              <h5 class="card-title">Paris</h5>
+              <p class="card-text">The city of love and lights awaits you.</p>
+              <a href="#" class="btn btn-outline-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="IMAGES/Newyork.webp" class="card-img-top" alt="Safari">
+            <div class="card-body">
+              <h5 class="card-title">Kenyan Safari</h5>
+              <p class="card-text">Witness the wild in its true essence.</p>
+              <a href="#" class="btn btn-outline-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="IMAGES/Bali.webp" class="card-img-top" alt="Bali">
+            <div class="card-body">
+              <h5 class="card-title">Bali</h5>
+              <p class="card-text">Relax, rejuvenate, and recharge in paradise.</p>
+              <a href="#" class="btn btn-outline-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tours Section -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center">Tour Packages</h2>
+      <div class="accordion mt-4" id="tourAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+              European Escapade
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#tourAccordion">
+            <div class="accordion-body">
+              A 10-day guided tour across Europe’s finest cities.
+              <a href="#" class="d-block mt-2 text-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+              Safari Adventure
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#tourAccordion">
+            <div class="accordion-body">
+              Explore Kenya’s famous game parks on this thrilling tour.
+              <a href="#" class="d-block mt-2 text-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center">Get in Touch</h2>
+      <form class="mt-4">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <input type="text" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <input type="email" class="form-control" placeholder="Your Email" required>
+          </div>
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Destination of Interest">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Send Inquiry</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white text-center py-3">
+    &copy; 2025 Wanderlust Travel Agency | Connect with us:
+    <a href="#" class="text-white ms-2"><i class="bi bi-facebook"></i></a>
+    <a href="#" class="text-white ms-2"><i class="bi bi-instagram"></i></a>
+    <a href="#" class="text-white ms-2"><i class="bi bi-twitter"></i></a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.js"></script>
+</body>
+</html>
+
